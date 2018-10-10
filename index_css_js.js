@@ -12,11 +12,10 @@ function updateBackground(){
 }
 
 function updateHexCode() {
-	document.querySelector("#h2").innerHTML = color1.value + " " + color2.value
+	document.querySelector("#h3").innerHTML = color1.value + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + color2.value
 }
 
 document.addEventListener('DOMContentLoaded', function(){
-	
 	updateBackground();	
 });
 
