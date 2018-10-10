@@ -1,5 +1,9 @@
-body {
-  background: linear-gradient(to right, #da4453, #89216b);
+
+body{
+	background: linear-gradient(to right, #da4453, #89216b);
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	color: white;
 }
 
 h1 {
@@ -11,10 +15,15 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  text-align: center;
-  font-family: "Bree Serif", serif;
-  color: white;
+#hex_color{
+    background-color: rgba(200,200,200,0.7);
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  text-shadow: -1px -1px 0 #4d4d4d, 1px -1px 0 #4d4d4d, -1px 1px 0 #4d4d4d, 1px 1px 0 #4d4d4d;
+	font-size: 25px;
 }
 
 input[type="color"] {
@@ -23,9 +32,11 @@ input[type="color"] {
   width: 100px;
   height: 40px;
 }
+
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
+
 input[type="color"]::-webkit-color-swatch {
   border: none;
 }
@@ -46,8 +57,4 @@ input[type="color"]::-webkit-color-swatch {
 .btnPush:hover {
   opacity: 1;
   transition: 0.5s;
-}
-
-.stroke {
-  text-shadow: -1px -1px 0 #4d4d4d, 1px -1px 0 #4d4d4d, -1px 1px 0 #4d4d4d, 1px 1px 0 #4d4d4d;
 }
