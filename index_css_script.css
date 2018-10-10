@@ -1,5 +1,9 @@
+
 body{
 	background: linear-gradient(to right, #da4453, #89216b);
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	color: white;
 }
 
 h1{
@@ -11,12 +15,15 @@ h1{
 	text-transform: uppercase;
 }
 
-h2{
-	text-align: center;
-	font-family: 'Bree Serif', serif;
-	color: white;
-}
 
+#hex_color{
+    background-color: rgba(200,200,200,0.7);
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
 input[type="color"] {
 	-webkit-appearance: none;
 	border: none;
