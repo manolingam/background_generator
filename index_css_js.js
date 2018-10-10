@@ -1,4 +1,3 @@
-
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("body");
@@ -12,10 +11,15 @@ function updateBackground(){
 }
 
 function updateHexCode() {
-	document.querySelector("#h3").innerHTML = color1.value + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + color2.value
+	updateValue(document.querySelector('#value1'), color1.value);
+	updateValue(document.querySelector('#value2'), color2.value);	
+}
+function updateValue(element, value){
+	element.textContent = value;	
+	element.setAttribute('style','color:' + value);
 }
 
 document.addEventListener('DOMContentLoaded', function(){
+	
 	updateBackground();	
 });
-
