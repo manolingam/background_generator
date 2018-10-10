@@ -47,3 +47,11 @@ input[type="color"]::-webkit-color-swatch {
 	opacity: 1;
 	transition: 0.5s;
 }
+
+.stroke{
+	text-shadow:
+   -1px -1px 0 #4d4d4d,
+    1px -1px 0 #4d4d4d,
+    -1px 1px 0 #4d4d4d,
+     1px 1px 0 #4d4d4d;
+}
